@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+           
+  <remote name="fc"
+           fetch="https://bitbucket.org/franco-c/"
+           sync-c="true"
+           sync-j="16" />
+
+  <project path="AK-tuna" name="AK-tuna" remote="fc" revision="ak-4.2.2-exp47" />
+  <project path="AK-ramdisk" name="AK-ramdisk" remote="fc" revision="jb-initram-4.2.2-mainline" />
+  <project path="AK-manifest" name="AK-manifest" remote="fc" revision="jb4.2" />
+
+</manifest>
