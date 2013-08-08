@@ -2,7 +2,7 @@
 <manifest>
            
   <remote name="fc"
-           fetch="https://bitbucket.org/franco-c/"
+           fetch="git://github.com/franco-c/"
            sync-c="true"
            sync-j="16" />
 
